@@ -1,11 +1,10 @@
 // src/serviceWorker.js
 const CACHE_NAME = 'pwa-login-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/static/css/main.css',
-  '/static/js/main.js',
-  '/api/login-status'
+  '/my-app/',  // เพิ่ม repository name
+  '/my-app/index.html',
+  '/my-app/static/css/main.css',
+  '/my-app/static/js/main.js'
 ];
 
 self.addEventListener('install', event => {
